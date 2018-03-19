@@ -1,0 +1,73 @@
+@import 'partials/reset';
+
+$primary_color: #468EC9;
+$secondary_color: #B52653;
+$tertiary_color: #CDE6F5;
+$off_white: #FFF;
+$off_black: #000;
+
+$primary_font: "Raleway", sans-serif;
+$title_font: 'Open Sans', sans-serif;
+
+section {
+  height: 700px;
+}
+
+nav {
+  height: 80px;
+  padding: 0 50px;
+  background-color: $primary_color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  ul a:hover {
+    background-color: $primary_color;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+}
+
+body {
+  font-family: $primary_font;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $title_font;
+}
+
+header {
+  height: 80vh;
+  background-image: url('images/background.jpg');
+  margin-top: 80px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: $off_white;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+#technologies {
+  i {
+    font-size: 100px;
+  }
+
+  col {
+    display: flex;
+  }
+}
