@@ -42,51 +42,57 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 800px;
-}
+  height: 650px; }
+  section h2 {
+    padding: 10px;
+    font-size: 32px; }
 
 nav {
   height: 80px;
   padding: 0 50px;
-  background-color: #468EC9;
+  background-color: #4B88A2;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 10000; }
   nav ul a:hover {
-    background-color: #468EC9;
+    background-color: #4B88A2;
     text-decoration: underline; }
   nav h3 {
-    font-size: 26px; }
+    font-size: 25px; }
 
 body {
   font-family: "Raleway", sans-serif; }
-
-h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "Open Sans", sans-serif; }
 
 header {
-  height: 80vh;
-  background-image: url("images/background.jpg");
+  height: 60vh;
   margin-top: 80px;
+  background-image: url("images/background.jpg");
   background-size: cover;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: #FFF; }
-
-h2 {
-  font-size: 46px; }
-
-h3 {
-  font-size: 26px; }
+  color: #FFF9FB;
+  text-align: center; }
+  header h1 {
+    font-size: 300%;
+    margin: 10px 0;
+    text-shadow: 2px 2px 3px #020F0F; }
+  header h3 {
+    font-size: 200%;
+    text-shadow: 2px 2px 3px #020F0F; }
 
 #technologies i {
   font-size: 100px; }
-#technologies col {
-  display: flex; }
+#technologies .col {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
