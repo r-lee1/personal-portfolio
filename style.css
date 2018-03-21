@@ -45,12 +45,13 @@ section {
   height: 650px; }
   section h2 {
     padding: 10px;
+    padding-top: 25px;
     font-size: 32px; }
 
 nav {
   height: 80px;
   padding: 0 50px;
-  background-color: #4B88A2;
+  background-color: #ff7d21;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,21 +60,20 @@ nav {
   left: 0;
   z-index: 10000; }
   nav ul a:hover {
-    background-color: #4B88A2;
+    background-color: #ff7d21;
     text-decoration: underline; }
   nav h3 {
-    font-size: 25px; }
+    font-size: 35px; }
 
 body {
   font-family: "Raleway", sans-serif; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Roboto Slab", serif; }
 
 header {
-  height: 60vh;
+  height: 80vh;
+  width: 100%;
   margin-top: 80px;
-  background-image: url("images/background.jpg");
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,14 +85,32 @@ header {
     margin: 10px 0;
     text-shadow: 2px 2px 3px #020F0F; }
   header h3 {
-    font-size: 200%;
+    font-size: 350%;
     text-shadow: 2px 2px 3px #020F0F; }
+  header div {
+    background-image: url("images/background2crop.png");
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
-#technologies i {
-  font-size: 100px; }
-#technologies .col {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+#technologies {
+  height: 500px;
+  padding: 100px 0; }
+  #technologies .row {
+    padding-top: 50px; }
+  #technologies i {
+    font-size: 90px; }
+  #technologies .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
