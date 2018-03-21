@@ -110,3 +110,15 @@ header {
     padding: 10px;
   }
 }
+
+.card {
+  height: 460px;
+
+  .card-content p {
+    font-size: 18px;
+  }
+
+  .card-action a {
+    font-size: 20px;
+  }
+}

@@ -113,4 +113,11 @@ header {
     justify-content: center;
     padding: 10px; }
 
+.card {
+  height: 460px; }
+  .card .card-content p {
+    font-size: 18px; }
+  .card .card-action a {
+    font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */
