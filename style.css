@@ -42,7 +42,8 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 650px; }
+  height: 650px;
+  padding: 30px 0; }
   section h2 {
     padding: 10px;
     padding-top: 25px;
@@ -102,7 +103,7 @@ header {
     background-repeat: no-repeat; }
 
 #projects {
-  padding: 65px 0; }
+  padding-top: 70px; }
 
 #technologies .row {
   padding-top: 50px; }
