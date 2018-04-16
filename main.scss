@@ -51,7 +51,8 @@ body {
 }
 
 header {
-  height: 80vh;
+  position: relative;
+  height: 95vh;
   width: 100%;
   margin-top: 80px;
   // background-image: url('images/background2.jpeg');
@@ -92,10 +93,12 @@ header {
 
 }
 
-#technologies {
-  height: 500px;
-  padding: 100px 0;
+#projects {
+  padding: 65px 0;
 
+}
+
+#technologies {
   .row {
     padding-top: 50px;
   }

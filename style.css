@@ -71,7 +71,8 @@ body {
     font-family: "Roboto Slab", serif; }
 
 header {
-  height: 80vh;
+  position: relative;
+  height: 95vh;
   width: 100%;
   margin-top: 80px;
   display: flex;
@@ -100,18 +101,18 @@ header {
     background-size: cover;
     background-repeat: no-repeat; }
 
-#technologies {
-  height: 500px;
-  padding: 100px 0; }
-  #technologies .row {
-    padding-top: 50px; }
-  #technologies i {
-    font-size: 90px; }
-  #technologies .col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px; }
+#projects {
+  padding: 65px 0; }
+
+#technologies .row {
+  padding-top: 50px; }
+#technologies i {
+  font-size: 90px; }
+#technologies .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; }
 
 .card {
   height: 460px; }
