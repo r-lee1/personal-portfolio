@@ -105,15 +105,18 @@ header {
 #projects {
   padding-top: 70px; }
 
-#technologies .row {
-  padding-top: 50px; }
-#technologies i {
-  font-size: 90px; }
-#technologies .col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px; }
+#technologies {
+  padding-top: 70px;
+  height: 500px; }
+  #technologies .row {
+    padding-top: 50px; }
+  #technologies i {
+    font-size: 90px; }
+  #technologies .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; }
 
 .card {
   height: 460px; }
@@ -121,5 +124,17 @@ header {
     font-size: 18px; }
   .card .card-action a {
     font-size: 20px; }
+
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #111;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 30px; }
+#contact label {
+  color: #555; }
+#contact label > textarea {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
