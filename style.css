@@ -42,7 +42,6 @@ table {
   border-spacing: 0; }
 
 section {
-  height: 650px;
   padding: 30px 0; }
   section h2 {
     padding: 10px;
@@ -106,8 +105,7 @@ header {
   padding-top: 70px; }
 
 #technologies {
-  padding-top: 70px;
-  height: 500px; }
+  padding-top: 70px; }
   #technologies .row {
     padding-top: 50px; }
   #technologies i {
@@ -122,11 +120,15 @@ header {
   height: 460px; }
   .card .card-content p {
     font-size: 18px; }
+  .card .card-action {
+    display: flex;
+    justify-content: space-between; }
   .card .card-action a {
+    margin-top: 10px;
     font-size: 20px; }
 
 #contact form {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   border: 1px solid #111;
   border-radius: 8px;

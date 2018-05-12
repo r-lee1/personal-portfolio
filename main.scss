@@ -8,10 +8,8 @@ $off_black: #020F0F;
 
 $primary_font: 'Raleway', sans-serif;
 $title_font: 'Roboto Slab', serif;
-// $title_font: 'Open Sans', sans-serif;
 
 section {
-  height:650px;
   padding: 30px 0;
 
   h2 {
@@ -56,9 +54,6 @@ header {
   height: 95vh;
   width: 100%;
   margin-top: 80px;
-  // background-image: url('images/background2.jpeg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +96,6 @@ header {
 
 #technologies {
   padding-top: 70px;
-  height: 500px;
 
   .row {
     padding-top: 50px;
@@ -125,14 +119,20 @@ header {
     font-size: 18px;
   }
 
+  .card-action {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .card-action a {
+    margin-top: 10px;
     font-size: 20px;
   }
 }
 
 #contact {
   form {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     border: 1px solid #111;
     border-radius: 8px;
