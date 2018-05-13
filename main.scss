@@ -1,8 +1,6 @@
 @import 'partials/reset';
 
 $primary_color: #ff7d21;
-$secondary_color: #BB0A21;
-$thirdinary_color: #6B9080;
 $off_white: #FFF9FB;
 $off_black: #020F0F;
 
@@ -10,7 +8,7 @@ $primary_font: 'Raleway', sans-serif;
 $title_font: 'Roboto Slab', serif;
 
 section {
-  padding: 30px 0;
+  padding: 20px 0;
 
   h2 {
     padding: 10px;
@@ -37,7 +35,8 @@ nav {
   }
 
   h3 {
-    font-size: 35px;
+    font-size: 32px;
+    min-width: 91px;
   }
 }
 
@@ -89,9 +88,46 @@ header {
 
 }
 
+#about {
+  padding-top: 75px;
+
+  #me {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+
+    img {
+      border-radius: 30px;
+      width: 200px;
+      height: 300px;
+    }
+
+    .bio-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        font-size: 53px;
+        padding: 15px 0;
+      }
+    }
+
+    #bio {
+      width: 40%;
+      font-size: 22px;
+      padding: 20px;
+    }
+
+  }
+}
+
 #projects {
   padding-top: 70px;
 
+  .row {
+    padding-top: 50px;
+  }
 }
 
 #technologies {
@@ -132,19 +168,51 @@ header {
 
 #contact {
   form {
-    width: 55%;
-    margin: 0 auto;
-    border: 1px solid #111;
+    width: 45%;
+    margin: 30px auto;
+    border: 1px solid $off_black;
     border-radius: 8px;
-    margin-top: 30px;
     padding: 30px;
   }
 
   label {
-    color: #555;
+    color: $off_black;
   }
 
   label > textarea {
     margin-top: 10px;
+  }
+
+  button {
+    display: block;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  button:focus {
+    background-color: #e4e4e4;
+  }
+}
+
+footer {
+  height: 70px;
+  background-color: $primary_color;
+
+  .links {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  a {
+    color: $off_white;
+    font-size: 40px;
+    padding: 0 5px;
+    cursor: pointer;
   }
 }

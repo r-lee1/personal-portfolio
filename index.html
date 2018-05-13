@@ -9,17 +9,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav>
-      <h3>Rose Lee</h3>
+      <h3>Rose S. Lee</h3>
       <ul>
         <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#technologies">Technologies</a></li>
         <li><a href="#contact">Contact</a></li>
-        <!-- <li><a href="#about">About</a></li> -->
       </ul>
     </nav>
     <header id="welcome">
@@ -27,6 +28,22 @@
       <div></div>
     </header>
     <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <div id="me">
+          <img src="./images/me.jpg"></img>
+          <div class="bio-links">
+            <a href="https://www.linkedin.com/in/roseslee1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/r-lee1" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://docs.google.com/document/d/1ja47ZMVOFqyql_Asl7KbF8D69sZwIvFwT-AriTJ5qeM/edit?usp=sharing" target="_blank"><i class="far fa-file-alt"></i></a>
+          </div>
+          <div id="bio">
+            <p>
+              I'm Rose, a software developer based in the San Francisco Bay Area.<br></br> I build web applications and enjoy solving problems in creative ways. I'm most passionate about innovative products that have a positive impact.<br></br> I spend most of my time working with React.js, JavaScript, CSS3, HTML5, and Ruby on Rails.
+            </p>
+          </div>
+        </div>
+      </section>
       <section id="projects">
         <h2>Projects</h2>
         <div class="row">
@@ -139,9 +156,6 @@
             </div>
           </div>
       </section>
-      <!-- <section id="about">
-        <h2>About</h2>
-      </section> -->
       <section id="contact">
         <h2>Contact</h2>
         <form name="contact" method="POST" netlify>
@@ -160,6 +174,12 @@
         </form>
       </section>
     </main>
+    <footer>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/roseslee1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/r-lee1" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
     </script>

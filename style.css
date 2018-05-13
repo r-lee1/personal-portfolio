@@ -42,7 +42,7 @@ table {
   border-spacing: 0; }
 
 section {
-  padding: 30px 0; }
+  padding: 20px 0; }
   section h2 {
     padding: 10px;
     padding-top: 25px;
@@ -63,7 +63,8 @@ nav {
     background-color: #ff7d21;
     text-decoration: underline; }
   nav h3 {
-    font-size: 35px; }
+    font-size: 32px;
+    min-width: 91px; }
 
 body {
   font-family: "Raleway", sans-serif; }
@@ -101,8 +102,32 @@ header {
     background-size: cover;
     background-repeat: no-repeat; }
 
+#about {
+  padding-top: 75px; }
+  #about #me {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px; }
+    #about #me img {
+      border-radius: 30px;
+      width: 200px;
+      height: 300px; }
+    #about #me .bio-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #about #me .bio-links a {
+        font-size: 53px;
+        padding: 15px 0; }
+    #about #me #bio {
+      width: 40%;
+      font-size: 22px;
+      padding: 20px; }
+
 #projects {
   padding-top: 70px; }
+  #projects .row {
+    padding-top: 50px; }
 
 #technologies {
   padding-top: 70px; }
@@ -128,15 +153,38 @@ header {
     font-size: 20px; }
 
 #contact form {
-  width: 55%;
-  margin: 0 auto;
-  border: 1px solid #111;
+  width: 45%;
+  margin: 30px auto;
+  border: 1px solid #020F0F;
   border-radius: 8px;
-  margin-top: 30px;
   padding: 30px; }
 #contact label {
-  color: #555; }
+  color: #020F0F; }
 #contact label > textarea {
   margin-top: 10px; }
+#contact button {
+  display: block;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+  border-radius: 5px; }
+#contact button:focus {
+  background-color: #e4e4e4; }
+
+footer {
+  height: 70px;
+  background-color: #ff7d21; }
+  footer .links {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px; }
+  footer a {
+    color: #FFF9FB;
+    font-size: 40px;
+    padding: 0 5px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
